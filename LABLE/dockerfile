@@ -1,0 +1,27 @@
+FROM almalinux:9
+LABLE author="shabeena" \
+      course="devops" \
+      description="this is docker practice"
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
