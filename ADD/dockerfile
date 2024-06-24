@@ -2,4 +2,3 @@ FROM almalinux:9
 ADD https://raw.githubusercontent.com/shabeena-syed/shell/main/variables.sh /tmp/variables.sh
 CMD ["sleep" , "60"]
 
-h
