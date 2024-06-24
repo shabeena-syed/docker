@@ -1,4 +1,6 @@
 FROM almalinux:9
 ADD https://raw.githubusercontent.com/shabeena-syed/shell/main/variables.sh /tmp/variables.sh
+ADD sample-5.eps /tmp/
 CMD ["sleep" , "60"]
+
 
