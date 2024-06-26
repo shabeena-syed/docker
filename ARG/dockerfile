@@ -4,6 +4,7 @@ FROM almalinux:${version:-8}
 CMD [ "sleep","100" ]
 ARG course=docker
 ARG trainer=shabeena
-ENV duration=120hrs
+ARG duration=120hrs
+ENV duration=${duration}
 RUN echo "course is :${course},trainer is :${trainer}, duration is :${duration}"
 CMD [ "sleep", "100"]
