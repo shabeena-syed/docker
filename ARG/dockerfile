@@ -2,3 +2,6 @@ ARG version
 FROM almalinux:${version}
 #RUN cat/etc/*release
 CMD [ "sleep","100" ]
+ARG course
+ARG trainer
+RUN echo "course is :${course},trainer is :${trainer}"
